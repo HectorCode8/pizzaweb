@@ -36,6 +36,10 @@ export const NavIcon = styled.div`
     transform: translate(-175%, 100%);
     font-weight: bold;
   }
+  &:hover {
+    color: #ffc500;
+    transition: 0.2s ease-in-out;
+  }
 `;
 
 export const Bars = styled(FaPizzaSlice)`
